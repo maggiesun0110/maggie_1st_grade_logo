@@ -1,0 +1,6 @@
+to draw_shapes :shape_type
+  if :shape_type = 5 [print "square]
+  
+  if :shape_type = 2 [print "circle]
+END
+draw_shapes 5
